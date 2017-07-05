@@ -2,36 +2,40 @@
 <html>
 <head>
 <style>
-body {font-family: Courier New;}
+body {font-family: Courier;
+      text-align: center;
+}
 
 /* Style the tab */
 div.tab {
+    text-align: center;
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #CBCBCB;
 }
 
 /* Style the buttons inside the tab */
 div.tab button {
-    background-color: inherit;
+    text-align: center;
+    background-color: #CBCBCB;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 20px 20px;
     transition: 0.3s;
-    font-size: 17px;
-    font-family: Courier New;
+    font-size: 20px;
+    font-family: Courier;
 }
 
 /* Change background color of buttons on hover */
 div.tab button:hover {
-    background-color: #ddd;
+    background-color: #9F9F9F;
 }
 
 /* Create an active/current tablink class */
 div.tab button.active {
-    background-color: #ccc;
+    background-color: #9F9F9F;
 }
 
 /* Style the tab content */
@@ -40,28 +44,40 @@ div.tab button.active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    font-weight: 20px;
 }
 </style>
 </head>
 <body>
 
-<p>Click on the buttons inside the tabbed menu:</p>
+
 
 <div class="tab">
   <button class="tablinks"onclick="openCity(event,'About Me')">About Me</button>
   <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
   <button class="tablinks" onclick="openCity(event, 'Travels')">Travels</button>
-<button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+  <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
 </div>
 
 <div id="About Me" class="tabcontent">
-  <h3>Biography</h3>
-  <p>London is the capital city of England.</p>
+  <h2>Biography</h2>
+ <style>
+ p {text-align: left;}
+ </style>
+  <p>
+  <br>
+I was born on the 18th of October in 2001 at Holy Cross Hospital in Maryland. <br><br>
+My family lives in Brazil, and I was the first person to be born in the US. <br><br>
+Since my family is Brazillian I know how to speak Portuguese, English, and Spanish. <br><br><br>
+A fun fact about me is that even though I love to travel, i've never been on a plane before. 
+  </p>
+<br>
 <style>
 table {
-    font-family: Courier New;
+    font-family: Courier;
     border-collapse: collapse;
-    width: 60%;
+    width: 40%;
+    text-align: center;
 }
 
 td, th {
@@ -73,8 +89,8 @@ td, th {
 <table>
   <tr>
   <font-weight: Bold;>
-    <th>Likes</th>
-    <th>Dislikes</th>
+    <th>My Likes</th>
+    <th>My Dislikes</th>
   </tr>
   <tr>
     <td>Traveling</td>
@@ -90,21 +106,39 @@ td, th {
   </tr>
 </table>
 
+<p><br>
+Here are some of my favorite websites: <br><br>
+
+<a href="http://weirdorconfusing.com/">Generates something weird or confusing you can purchase.</a><br><br>
+
+<a href="http://ducksarethebest.com/">A whole lot of ducks.</a><br><br>
+
+<a href="http://www.koalastothemax.com/">A koala.</a><br><br>
+
 </div>
 
 <div id="Education" class="tabcontent">
-  <h3>My Academic Career</h3>
-  <p>Paris is the capital of France.</p> 
+  <h2>My Academic Career</h2>
+  <style>
+ p {text-align: left;}
+ </style>
+  <p>Academic Goes Here</p> 
 </div>
 
 <div id="Travels" class="tabcontent">
-  <h3>My Traveling Expirience</h3>
-  <p>Tokyo is the capital of Japan.</p>
+  <h2>My Traveling Experience</h2>
+  <style>
+ p {text-align: left;}
+ </style>
+  <p>Travels Go Here</p>
 </div>
 
 <div id="Projects" class="tabcontent">
-  <h3>My Projects with GWC</h3>
-  <p>Tokyo is the capital of Japan.</p>
+  <h2>My Projects with GWC</h2>
+ <style>
+ p {text-align: left;}
+ </style>
+  <p>Projects Go Here</p>
 </div>
 
 <script>
@@ -122,6 +156,18 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 </script>
+
+<br>
+<br>
+<br>
+<style>
+h2 {
+    text-align: center;
+    font-size: 20px;
+    
+}
+</style>
+<h2>^  Select One of the Tabs Above to Learn More About Me! ^</h2>
      
 </body>
 </html> 
