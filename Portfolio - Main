@@ -7,10 +7,10 @@
 <body>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'About Me')">About Me</button>
-  <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
-  <button class="tablinks" onclick="openCity(event, 'Travels')">Travels</button>
-  <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+  <button class="tablinks" onclick="openSection(event, 'About Me')">About Me</button>
+  <button class="tablinks" onclick="openSection(event, 'Education')">Education</button>
+  <button class="tablinks" onclick="openSection(event, 'Travels')">Travels</button>
+  <button class="tablinks" onclick="openSection(event, 'Projects')">Projects</button>
 </div>
 
 <div id="About Me" class="tabcontent">
