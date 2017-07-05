@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<style>
+h1 {font-family: Courier;
+    text-align: center;
+    
+}
+</style>
+
+<h1>Rebecca Marchesi's Portfolio<br></h1>
+
 <style>
 body {font-family: Courier;
       text-align: center;
@@ -10,19 +20,18 @@ body {font-family: Courier;
 div.tab {
     text-align: center;
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     background-color: #CBCBCB;
 }
 
 /* Style the buttons inside the tab */
 div.tab button {
-    text-align: center;
     background-color: #CBCBCB;
-    float: left;
+    float: center;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 20px 20px;
+    padding: 15px 45px;
     transition: 0.3s;
     font-size: 20px;
     font-family: Courier;
@@ -45,6 +54,7 @@ div.tab button.active {
     border: 1px solid #ccc;
     border-top: none;
     font-weight: 20px;
+    text-align: center;
 }
 </style>
 </head>
@@ -122,7 +132,11 @@ Here are some of my favorite websites: <br><br>
   <style>
  p {text-align: left;}
  </style>
-  <p>Academic Goes Here</p> 
+  <p><br>
+I go to Northwood High School located in Silver Spring, Maryland. <br><br>
+At school I play girls volleyball in the fall and co ed volleyball in the spring. <br><br>
+I took AP Psychology and US Government last year and plan on taking AP Computer Science: Programming, BC Calculus, and Language. <br><br>
+  </p> 
 </div>
 
 <div id="Travels" class="tabcontent">
@@ -138,7 +152,11 @@ Here are some of my favorite websites: <br><br>
  <style>
  p {text-align: left;}
  </style>
-  <p>Projects Go Here</p>
+  <p><br>
+This game is called Egg Chase. It involves the player as a chicken, crossing the streets while avioding the cars to collect as many eggs as possible before running out of lives. <br><br>
+<center>
+<img src="/This PC/Pictures/pictureofgame.jpeg" alt="Picture of Game" style="width:304px;height:228px;" align="middle">
+  </p>
 </div>
 
 <script>
